@@ -11,6 +11,10 @@ Apparel Manager
 - Invoice Download and download order in different type of file Doc, PDF, SVC etc.
 - Product uploading with different kind of feature like color, size selection etc.
 - CRUD All product 
+- Customer can pay in different currency 
+	Australia 	Website Payments Pro Hosted Solution 	American Express (AUD only), MasterCard, Visa 	AUD, CAD, 		CHF, CZK, DKK, EUR, GBP, HKD, HUF, JPY, NOK, NZD, PHP, PLN, RUB, SEK, SGD, THB, TWD, USD
+- Price of the product can be converted as user preference and can make the payment
+
 
 
 
