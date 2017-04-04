@@ -1,0 +1,1 @@
+clothing script is a software for building an online multi language apparel store where customers can choose a category and purchase products online. Customers can add items to shopping cart and view cart content. Payments are done by paypal, other payment gateways can be integrated. Clothing site administrator can view and manage products and orders.
