@@ -9,6 +9,8 @@ Apparel Manager
 - Orders - Administrator can view all orders with order details and order status.
 - Showing Sales in Graph, Chart etc.
 - Invoice Download and download order in different type of file Doc, PDF, SVC etc.
-- Product uploading with different kind of feature 
+- Product uploading with different kind of feature like color, size selection etc.
 - CRUD All product 
+
+
 
