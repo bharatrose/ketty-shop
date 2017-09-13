@@ -185,13 +185,13 @@ function ProductByCategory($records,$index, $indexvalue)
 	return $data;
 }
 
-
+/* This is new file*/
 
 //usort($records, "ProductByCategory");
-echo "<pre>";
-$var = ProductByCategory($records, 'category','Stationery');
-print_r($var);
-echo "</pre>";
+//echo "<pre>";
+//$var = ProductByCategory($records, 'category','Stationery');
+//print_r($var);
+//echo "</pre>";
 //echo "<h1> At the end of script memory usage ". memory_get_usage()."</h1>";
 
 ?>
