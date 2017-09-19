@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<break_fast>
+<food id="9090" sku="908934">
+<name>Pinapple</name>
+<price>57</price>
+<id>456</id>
+</food>
+<food id="15058057204631"><name>sho1</name><price>89</price><id>15058057204631</id></food><food id="15058057223444"><name>sho1</name><price>89</price><id>15058057223444</id></food><food id="15058057246082"><name>sho1</name><price>89</price><id>15058057246082</id></food></break_fast>
