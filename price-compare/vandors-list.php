@@ -146,15 +146,24 @@ class ComparePrice
 		/* Set new domn documenbt */	
 		$content = [];
 		
+		/* I have array key for site attributes */
+		$siteAttributes = $this->ReturnArrayKeys();
 		/* Access each content in array */
+		
 		foreach($storeContent as $key => $value)
 		{
 			@$doc = new DOMDocument();
+			
 			@$doc->loadHTML(htmlspecialchars_decode($value));   
 
 			$xpath = new DomXPath($doc);
-
-			$vandor_logos 	= 	$xpath->query($this->SiteAttribute()[$key]['logo'])->item(0)->nodeValue;
+			
+			for($a = 0; $a < count($siteAttributes); $a++)
+			{
+				$xpath->query($this->SiteAttribute()[$key][$siteAttributes[$a]])->item(0)->nodeValue;
+			}
+			/* Get all vandor logos */
+			$logo 			= 	$xpath->query($this->SiteAttribute()[$key]['logo'])->item(0)->nodeValue;
 			$image          = 	$xpath->query($this->SiteAttribute()[$key]['image'])->item(0)->nodeValue;
 			$title 			=   $xpath->query($this->SiteAttribute()[$key]['title'])->item(0)->nodeValue;
 			$shipping 		=   $xpath->query($this->SiteAttribute()[$key]['shipping'])->item(0)->nodeValue;
@@ -166,7 +175,7 @@ class ComparePrice
 			
 			/* Get first index arrray keys */
 			$data = [
-						'logo' => trim($vandor_logos),
+						'logo' => trim($logo),
 						'image' => trim($image),
 						'title' => trim($title),
 						'shipping' => trim($shipping),
@@ -191,9 +200,25 @@ class ComparePrice
 	public function ReturnArrayKeys()
 	{
 			/* Get the html content */
-		$storeContent = $this->StoreContet;
+		$SiteAttribute = $this->SiteAttribute();
+		
+		/* Reset the array pointer */
+		reset($SiteAttribute);
+		
+		/* Get first Key */
+		$first_key = key($SiteAttribute);
+
+		/* Get the keys */
+		$first_key_val = $SiteAttribute[$first_key];
+		
+		/* Get array keys */
+		$keys = array_keys($first_key_val);
+		
+		/* Return the variable */
+		return $keys;
 		
 	}
+	
 	public function SiteAttribute()
 	{	
 			$attributes = [
