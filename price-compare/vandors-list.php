@@ -69,7 +69,7 @@ class ComparePrice
 		/* Run the search string method */
 		
 		/* Url encode */
-		$string = urlencode($string);
+		$string = urlencode(strtolower($string));
 		
 		// Loop the url 
 		for($i = 0; $i < count($UrlInArray); $i++)
@@ -160,16 +160,40 @@ class ComparePrice
 			
 			for($a = 0; $a < count($siteAttributes); $a++)
 			{
-				$xpath->query($this->SiteAttribute()[$key][$siteAttributes[$a]])->item(0)->nodeValue;
+				//$xpath->query($this->SiteAttribute()[$key][$siteAttributes[$a]])->item(0)->nodeValue;
 			}
-			/* Get all vandor logos */
-			$logo 			= 	$xpath->query($this->SiteAttribute()[$key]['logo'])->item(0)->nodeValue;
-			$image          = 	$xpath->query($this->SiteAttribute()[$key]['image'])->item(0)->nodeValue;
-			$title 			=   $xpath->query($this->SiteAttribute()[$key]['title'])->item(0)->nodeValue;
-			$shipping 		=   $xpath->query($this->SiteAttribute()[$key]['shipping'])->item(0)->nodeValue;
-			$discription 	=   $xpath->query($this->SiteAttribute()[$key]['discription'])->item(0)->nodeValue;
-			$currency 		=   $xpath->query($this->SiteAttribute()[$key]['currency'])->item(0)->nodeValue;
-			$price			= 	$xpath->query($this->SiteAttribute()[$key]['price'])->item(0)->nodeValue;
+			
+			/* Check search request returning something */
+			$ElementFound = $xpath->query($this->SiteAttribute()[$key]['price']);
+			
+			echo "<pre>";
+			print_r($ElementFound);
+			echo "</pre>";
+			
+			/* Count and validate */
+			if($ElementFound->length === 0)
+			{
+			
+				// Set all Variable to null 
+				$logo = NULL;
+				$image = NULL;
+				$title = NULL;
+				$shipping = NULL;
+				$discription = NULL;
+				$currency = NULL;
+				$price = NULL;
+				
+			} else {
+			
+				/* Get all vandor logos */
+				$logo 			= 	$xpath->query($this->SiteAttribute()[$key]['logo'])->item(0)->nodeValue;
+				$image          = 	$xpath->query($this->SiteAttribute()[$key]['image'])->item(0)->nodeValue;
+				$title 			=   $xpath->query($this->SiteAttribute()[$key]['title'])->item(0)->nodeValue;
+				$shipping 		=   $xpath->query($this->SiteAttribute()[$key]['shipping'])->item(0)->nodeValue;
+				$discription 	=   $xpath->query($this->SiteAttribute()[$key]['discription'])->item(0)->nodeValue;
+				$currency 		=   $xpath->query($this->SiteAttribute()[$key]['currency'])->item(0)->nodeValue;
+				$price			= 	$xpath->query($this->SiteAttribute()[$key]['price'])->item(0)->nodeValue;
+			
 			
 			/* Setting new value to the array data */
 			
@@ -184,13 +208,20 @@ class ComparePrice
 						'price' => trim($price)
 					];
 					
-			$content[$key] = $data;
+			
+				$content[$key] = $data;
+				/* Set the data to class property */
+		
+				$this->content = $content; 
+			
+			
+			}
+			
+			
 
 		}
 		
-		/* Set the data to class property */
-		
-		$this->content = $content;  
+		 
 		
 		
 
@@ -241,7 +272,7 @@ class ComparePrice
 											'shipping' => "//div[@id='content-slot']//div[@id='free_shipping']",
 											'discription' => "//div[@id='content-slot']//span[@class='variant-title']//a/@href",
 											'currency' => "//div[@id='content-slot']//span[@class='variant-final-price']//span[@class='m-w']//span[@class='m-c c-aed']",
-											'price' => "//div[@id='content-slot']//span[@class='price']"
+											'price' => "//div[@id='content-slot']//span[@class='variant-final-price']"
 											]			
 						];
 	return $attributes;
@@ -257,11 +288,16 @@ $UrlInArray = [
 				'https://www.jumbo.ae/home/search?q={{@searchString}}',
 		];
 
-$string = 'Apple MacBook Pro 2016 Laptop With Touch Bar';
+$string = 'Apple MacBook Pro 2016';
 
 $obj = new ComparePrice($UrlInArray, $string);
 echo "<pre>";
 print_R($obj);
 echo "<pre>";
+
+/* Next get the information about */
+/*
+https://uae.microless.com/search/?query=Apple+MacBook+Pro
+*/
 
 ?>
