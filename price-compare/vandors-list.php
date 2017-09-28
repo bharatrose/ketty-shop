@@ -110,17 +110,11 @@ class ComparePrice
 			/* Set the header */
         	curl_setopt($ch, CURLOPT_HEADER, 0);
         	
-        	/* Using post method */
-        	curl_setopt($ch, CURLOPT_POST, 1);
-        	
         	/* Do not check to verify */
         	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
         	
         	/* Return transfre is true for output data */
         	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        	
-        	/* Post the fields */
-        	curl_setopt($ch, CURLOPT_POSTFIELDS, "");
         	
         	/* Execute curl request */
         	$output = curl_exec($ch);
@@ -190,11 +184,19 @@ class ComparePrice
 				$image          = 	$xpath->query($this->SiteAttribute()[$key]['image'])->item(0)->nodeValue;
 				$title 			=   $xpath->query($this->SiteAttribute()[$key]['title'])->item(0)->nodeValue;
 				$shipping 		=   $xpath->query($this->SiteAttribute()[$key]['shipping'])->item(0)->nodeValue;
+				
 				$discription 	=   $xpath->query($this->SiteAttribute()[$key]['discription'])->item(0)->nodeValue;
 				$currency 		=   $xpath->query($this->SiteAttribute()[$key]['currency'])->item(0)->nodeValue;
 				$price			= 	$xpath->query($this->SiteAttribute()[$key]['price'])->item(0)->nodeValue;
 			
-			
+			// Check discription containe hostname as well 
+			if($this->filter_var_domain($discription) == false)
+			{
+				$discription = $key.$discription;
+			} 
+				
+			// Remove 
+			$shipping = preg_replace("/\s+/", " ", $shipping);
 			/* Setting new value to the array data */
 			
 			/* Get first index arrray keys */
@@ -220,12 +222,7 @@ class ComparePrice
 			
 
 		}
-		
-		 
-		
-		
-
-		
+	
 	}
 	
 	public function ReturnArrayKeys()
@@ -273,31 +270,75 @@ class ComparePrice
 											'discription' => "//div[@id='content-slot']//span[@class='variant-title']//a/@href",
 											'currency' => "//div[@id='content-slot']//span[@class='variant-final-price']//span[@class='m-w']//span[@class='m-c c-aed']",
 											'price' => "//div[@id='content-slot']//span[@class='variant-final-price']"
-											]			
+											],
+											
+							'uae.microless.com'		
+											=>
+											[
+											'logo' => "//div[@id='search-results']//div[@class='product-image']//a//img/@src",
+											'image' => "//div[@id='search-results']//div[@class='product-image']//a//img/@src",
+											'title' => "//div[@id='search-results']//div[@class='product-title']//a",
+											'shipping' => "//div[@id='search-results']//div[@class='bottom']",
+											'discription' => "//div[@id='search-results']//div[@class='product-title']//a/@href",
+											'currency' => "//div[@id='search-results']//div[@class='pull-left1']",
+											'price' => "//div[@id='search-results']//div[@class='pull-left1']//span[@class='amount']"
+											]	
 						];
 	return $attributes;
 	}
 	
+	
+	function  filter_var_domain($domain)
+	{
+    if(stripos($domain, 'http://') === 0)
+    {
+        $domain = substr($domain, 7); 
+    }
+     
+    ///Not even a single . this will eliminate things like abcd, since http://abcd is reported valid
+    if(!substr_count($domain, '.'))
+    {
+        return false;
+    }
+     
+    if(stripos($domain, 'www.') === 0)
+    {
+        $domain = substr($domain, 4); 
+    }
+     
+    $again = 'http://' . $domain;
+    
+    return filter_var ($again, FILTER_VALIDATE_URL);
+}
+
+	
 
 }
 
+echo "<h3>Memory At the begning ".memory_get_usage()."</h3>";
 
 // Url in array 
 $UrlInArray = [
 				'https://uae.souq.com/ae-en/{{@searchString}}/s/?as=1',
 				'https://www.jumbo.ae/home/search?q={{@searchString}}',
+				'https://uae.microless.com/search/?query={{@searchString}}'
+				
 		];
 
-$string = 'Apple MacBook Pro 2016';
+$string = 'Apple MacBook Pro';
 
 $obj = new ComparePrice($UrlInArray, $string);
 echo "<pre>";
 print_R($obj);
 echo "<pre>";
 
+unset($obj);
+
+echo "<h3>Memory At the end ".memory_get_usage()."</h3>";
+
 /* Next get the information about */
 /*
-https://uae.microless.com/search/?query=Apple+MacBook+Pro
+https://en-ae.wadi.com/catalog/?q=apple+mac+book&ref=search
 */
 
 ?>
