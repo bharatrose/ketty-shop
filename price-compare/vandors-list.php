@@ -275,14 +275,26 @@ class ComparePrice
 							'uae.microless.com'		
 											=>
 											[
-											'logo' => "//div[@id='search-results']//div[@class='product-image']//a//img/@src",
+											'logo' => "//div[@id='header-logo']/@style",
 											'image' => "//div[@id='search-results']//div[@class='product-image']//a//img/@src",
 											'title' => "//div[@id='search-results']//div[@class='product-title']//a",
-											'shipping' => "//div[@id='search-results']//div[@class='bottom']",
+											'shipping' => "//div[@id='search-results']//div[@class='free-shipping']",
 											'discription' => "//div[@id='search-results']//div[@class='product-title']//a/@href",
-											'currency' => "//div[@id='search-results']//div[@class='pull-left1']",
-											'price' => "//div[@id='search-results']//div[@class='pull-left1']//span[@class='amount']"
-											]	
+											'currency' => "//div[@id='search-results']//div[@class='new-price']",
+											'price' => "//div[@id='search-results']//div[@class='new-price']//span[@class='amount']"
+											],
+											
+							'www.carrefouruae.com' =>
+										[
+											'logo' => "//a[@class='logo']/@href",
+											'image' => "//div[@class='product']//a//div[@class='media']//img/@src",
+											'title' => "//div[@class='product']//p[@class='name']//a",
+											'shipping' => "//div[@class='product']",
+											'discription' => "//div[@class='product']//p[@class='name']//a/@href",
+											'currency' => "//div[@class='product']//p[@class='finalPrice']//span",
+											'price' => "//div[@class='product']//p[@class='finalPrice']"
+										]
+										
 						];
 	return $attributes;
 	}
@@ -321,7 +333,10 @@ echo "<h3>Memory At the begning ".memory_get_usage()."</h3>";
 $UrlInArray = [
 				'https://uae.souq.com/ae-en/{{@searchString}}/s/?as=1',
 				'https://www.jumbo.ae/home/search?q={{@searchString}}',
-				'https://uae.microless.com/search/?query={{@searchString}}'
+				'https://uae.microless.com/search/?query={{@searchString}}',
+				
+				'https://www.carrefouruae.com/mafuae/en/search={{@searchString}}'
+				
 				
 		];
 
@@ -329,7 +344,7 @@ $string = 'Apple MacBook Pro';
 
 $obj = new ComparePrice($UrlInArray, $string);
 echo "<pre>";
-print_R($obj);
+print_R($obj->content);
 echo "<pre>";
 
 unset($obj);
@@ -339,6 +354,13 @@ echo "<h3>Memory At the end ".memory_get_usage()."</h3>";
 /* Next get the information about */
 /*
 https://en-ae.wadi.com/catalog/?q=apple+mac+book&ref=search
-*/
 
+											['logo' => "//div[@id='site_logo']/@href",
+											'image' => "//img[@class='ng-scope lazyloaded ']/@src",
+											'title' => "//div[@class='details_container']//span[@class='ellip']",
+											'shipping' => "//p[@class='product-tag tag-BestPriceGuaranteeUAE']",
+											'discription' => "//a[@class='product_listing_link']/@href",
+											'currency' => "//span[@class='ng-binding']",
+											'price' => "//strong[@class='ng-binding']"]
+*/
 ?>
