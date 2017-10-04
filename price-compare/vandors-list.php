@@ -144,6 +144,10 @@ class ComparePrice
 		$siteAttributes = $this->ReturnArrayKeys();
 		/* Access each content in array */
 		
+		//echo "<pre>";
+		//print_R(array_keys($storeContent));
+		//echo "</pre>";
+		
 		foreach($storeContent as $key => $value)
 		{
 			@$doc = new DOMDocument();
@@ -293,9 +297,30 @@ class ComparePrice
 											'discription' => "//div[@class='product']//p[@class='name']//a/@href",
 											'currency' => "//div[@class='product']//p[@class='finalPrice']//span",
 											'price' => "//div[@class='product']//p[@class='finalPrice']"
-										]
+										],
 										
-						];
+							'www.trobone.com' =>
+										[
+											'logo' => "//div[@class='logo col-lg-3 col-md-3 col-sm-12 col-xs-12']//a//img/@src",
+											'image' => "//div[@class='products-grid']//div[@class='product-image']//a//img/@src",
+											'title' => "//div[@class='products-grid']//div[@class='product-info']//div[@class='product-name']//a",
+											'shipping' => "//div[@class='products-grid']//div[@class='product-image']//a/@href",
+											'discription' => "//div[@class='products-grid']//div[@class='product-image']//a/@href",
+											'currency' => "//div[@class='products-grid']//div[@class='price-box']//span[@class='price']",
+											'price' => "//div[@class='products-grid']//div[@class='price-box']//span[@class='price']"
+										],
+										
+							'www.buyondubai.com'=>	
+										[
+											'logo' => "//a[@class='fixed-header-visible additional-header-logo']//img/@src",
+											'image' => "//div[@class='shop-grid grid-view']//div[@class='product-image']//a//img/@data-src",
+											'title' => "//div[@class='shop-grid grid-view']//div[@class='product-image']//a//img/@alt",
+											'shipping' => "//div[@class='shop-grid grid-view']//div[@class='discount-label']",
+											'discription' => "//div[@class='shop-grid grid-view']//a/@href",
+											'currency' => "//div[@class='shop-grid grid-view']//div[@class='price']//div[@class='current']",
+											'price' => "//div[@class='shop-grid grid-view']//div[@class='price']//div[@class='current']"
+											]
+										];
 	return $attributes;
 	}
 	
@@ -334,13 +359,14 @@ $UrlInArray = [
 				'https://uae.souq.com/ae-en/{{@searchString}}/s/?as=1',
 				'https://www.jumbo.ae/home/search?q={{@searchString}}',
 				'https://uae.microless.com/search/?query={{@searchString}}',
-				
-				'https://www.carrefouruae.com/mafuae/en/search={{@searchString}}'
+				'https://www.carrefouruae.com/mafuae/en/search={{@searchString}}',
+				'https://www.trobone.com/catalogsearch/result/?q={{@searchString}}',
+				'https://www.buyondubai.com/search/search_term/{{@searchString}}'
 				
 				
 		];
 
-$string = 'Apple MacBook Pro';
+$string = 'Apple MacBook Pro core i7';
 
 $obj = new ComparePrice($UrlInArray, $string);
 echo "<pre>";
@@ -353,14 +379,16 @@ echo "<h3>Memory At the end ".memory_get_usage()."</h3>";
 
 /* Next get the information about */
 /*
-https://en-ae.wadi.com/catalog/?q=apple+mac+book&ref=search
+https://www.buyondubai.com/search/search_term/{{@searchString}}
 
-											['logo' => "//div[@id='site_logo']/@href",
-											'image' => "//img[@class='ng-scope lazyloaded ']/@src",
-											'title' => "//div[@class='details_container']//span[@class='ellip']",
-											'shipping' => "//p[@class='product-tag tag-BestPriceGuaranteeUAE']",
-											'discription' => "//a[@class='product_listing_link']/@href",
-											'currency' => "//span[@class='ng-binding']",
-											'price' => "//strong[@class='ng-binding']"]
+[
+'logo' => "//a[@class='fixed-header-visible additional-header-logo']/@href",
+'image' => "//div[@class='shop-grid grid-view']//div[@class='product-image']//a//img/@data-src",
+'title' => "//div[@class='shop-grid grid-view']//a",
+'shipping' => "//div[@class='shop-grid grid-view']//div[@class='discount-label']",
+'discription' => "//div[@class='shop-grid grid-view']//a/@href",
+'currency' => "//div[@class='shop-grid grid-view']//div[@class='price']//div[@class='current']",
+'price' => "//div[@class='shop-grid grid-view']//div[@class='price']//div[@class='current']"
+]
 */
 ?>
