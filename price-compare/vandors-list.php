@@ -319,7 +319,33 @@ class ComparePrice
 											'discription' => "//div[@class='shop-grid grid-view']//a/@href",
 											'currency' => "//div[@class='shop-grid grid-view']//div[@class='price']//div[@class='current']",
 											'price' => "//div[@class='shop-grid grid-view']//div[@class='price']//div[@class='current']"
+											],
+							'www.virginmegastore.ae' =>
+											
+											[
+												'logo' => "//div[@class='simple-banner-component']//a//img/@src",
+												'image' => "//ul[@class='product-listing product-grid']//li[@class='product-item']//a//img/@src",
+												'title' => "//ul[@class='product-listing product-grid']//li[@class='product-item']//a/@title",
+												'shipping' => "//ul[@class='product-listing product-grid']//li[@class='product-item']//a/@title",
+												'discription' => "//ul[@class='product-listing product-grid']//div[@class='details']//a/@href",
+												'currency' => "//ul[@class='product-listing product-grid']//div[@class='priceContainer']//span[@class='price']",
+												'price' => "//ul[@class='product-listing product-grid']//div[@class='priceContainer']//span[@class='price']"
+											],
+								
+							'www.erosdigitalhome.ae' =>
+							
+											[
+												'logo' => "//div[@class='logo']//a//img/@src",
+												'image' => "//ul[@class='search-result-items']//div[@class='variant-image']//span//img/@src",
+												'title' => "//ul[@class='search-result-items']//div[@class='variant-image']//span//img/@title",
+												'shipping' => "//ul[@class='search-result-items']//div[@class='shipping_cost']//b",
+												'discription' => "//ul[@class='search-result-items']//div[@class='variant-image']//a/@href",
+												'currency' => "//ul[@class='search-result-items']//span[@class='variant-final-price']//span[@class='m-c c-aed']",
+												'price' => "//ul[@class='search-result-items']//span[@class='variant-final-price']//span[@class='m-w']"
 											]
+											
+											
+										
 										];
 	return $attributes;
 	}
@@ -361,7 +387,9 @@ $UrlInArray = [
 				'https://uae.microless.com/search/?query={{@searchString}}',
 				'https://www.carrefouruae.com/mafuae/en/search={{@searchString}}',
 				'https://www.trobone.com/catalogsearch/result/?q={{@searchString}}',
-				'https://www.buyondubai.com/search/search_term/{{@searchString}}'
+				'https://www.buyondubai.com/search/search_term/{{@searchString}}',
+				'https://www.virginmegastore.ae/en/search/?text={{@searchString}}',
+				'http://www.erosdigitalhome.ae/home/search?q={{@searchString}}&sort_type=relevance'
 				
 				
 		];
