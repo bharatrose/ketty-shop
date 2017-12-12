@@ -1,0 +1,175 @@
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+PHP SCRIPT IS SIMPLE AND WHICHE IS USING SIMPLE str_repeat('String', )
+echo str_repeat('Bird', 1000000);
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+http://localhost/memory/ Apache2 and php7
+=================================================
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+Completed 500 requests
+Completed 1000 requests
+Completed 1500 requests
+Completed 2000 requests
+Completed 2500 requests
+Completed 3000 requests
+Completed 3500 requests
+Completed 4000 requests
+Completed 4500 requests
+Completed 5000 requests
+Finished 5000 requests
+
+
+Server Software:        Apache/2.4.18
+Server Hostname:        localhost
+Server Port:            80
+
+Document Path:          /memory/
+Document Length:        4000000 bytes
+
+Concurrency Level:      20
+Time taken for tests:   17.900 seconds
+Complete requests:      5000
+Failed requests:        0
+Total transferred:      20000850000 bytes
+HTML transferred:       20000000000 bytes
+Requests per second:    279.33 [#/sec] (mean)
+Time per request:       71.599 [ms] (mean)
+Time per request:       3.580 [ms] (mean, across all concurrent requests)
+Transfer rate:          1091190.89 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.3      0       7
+Processing:     8   71  30.8     69     235
+Waiting:        4   40  23.8     38     174
+Total:          8   71  30.8     69     235
+
+Percentage of the requests served within a certain time (ms)
+  50%     69
+  66%     81
+  75%     89
+  80%     95
+  90%    111
+  95%    128
+  98%    146
+  99%    158
+ 100%    235 (longest request)
+
+===============================================================
+
+
+http://dontworrylocal.com/memory/ Nginx and PHP7.0-fpm
+=====================================================
+Benchmarking dontworrylocal.com (be patient)
+Completed 500 requests
+Completed 1000 requests
+Completed 1500 requests
+Completed 2000 requests
+Completed 2500 requests
+Completed 3000 requests
+Completed 3500 requests
+Completed 4000 requests
+Completed 4500 requests
+Completed 5000 requests
+Finished 5000 requests
+
+
+Server Software:        nginx/1.4.6
+Server Hostname:        dontworrylocal.com
+Server Port:            80
+
+Document Path:          /memory/
+Document Length:        4000000 bytes
+
+Concurrency Level:      20
+Time taken for tests:   363.332 seconds
+Complete requests:      5000
+Failed requests:        0
+Total transferred:      20000725000 bytes
+HTML transferred:       20000000000 bytes
+Requests per second:    13.76 [#/sec] (mean)
+Time per request:       1453.328 [ms] (mean)
+Time per request:       72.666 [ms] (mean, across all concurrent requests)
+Transfer rate:          53757.87 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1  10.2      0     244
+Processing:    59 1449 1288.2   1096    9199
+Waiting:        4  790 377.3    762    3360
+Total:         59 1450 1288.2   1096    9199
+
+Percentage of the requests served within a certain time (ms)
+  50%   1096
+  66%   1278
+  75%   1437
+  80%   1559
+  90%   2494
+  95%   4179
+  98%   6567
+  99%   7844
+ 100%   9199 (longest request)
+
+
+=====================================================
+
+http://vm3local.com/memory/ Apache2 and PHP7.0-fpm
+=================================================
+Benchmarking dontworrylocal.com (be patient)
+Completed 500 requests
+Completed 1000 requests
+Completed 1500 requests
+Completed 2000 requests
+Completed 2500 requests
+Completed 3000 requests
+Completed 3500 requests
+Completed 4000 requests
+Completed 4500 requests
+Completed 5000 requests
+Finished 5000 requests
+
+
+Server Software:        nginx/1.4.6
+Server Hostname:        dontworrylocal.com
+Server Port:            80
+
+Document Path:          /memory/
+Document Length:        4000000 bytes
+
+Concurrency Level:      20
+Time taken for tests:   363.332 seconds
+Complete requests:      5000
+Failed requests:        0
+Total transferred:      20000725000 bytes
+HTML transferred:       20000000000 bytes
+Requests per second:    13.76 [#/sec] (mean)
+Time per request:       1453.328 [ms] (mean)
+Time per request:       72.666 [ms] (mean, across all concurrent requests)
+Transfer rate:          53757.87 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1  10.2      0     244
+Processing:    59 1449 1288.2   1096    9199
+Waiting:        4  790 377.3    762    3360
+Total:         59 1450 1288.2   1096    9199
+
+Percentage of the requests served within a certain time (ms)
+  50%   1096
+  66%   1278
+  75%   1437
+  80%   1559
+  90%   2494
+  95%   4179
+  98%   6567
+  99%   7844
+ 100%   9199 (longest request)
+
+==================================================================
+
+
+ab -n 5000 -c 20 http://vm3local.com/memory/
