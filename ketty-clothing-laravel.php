@@ -33,7 +33,7 @@ use Illuminate\Support\Facades\Auth;
 /* For File uploading */
 use App\Http\Requests\UploadRequest;
 
-/* Class for storing data in File system */
+/* Class for storing data in File system  added*/
 use Illuminate\Support\Facades\Storage;
 
 /* Facades for file system */
