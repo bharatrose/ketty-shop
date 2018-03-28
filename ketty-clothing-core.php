@@ -42,6 +42,7 @@ PDFlib, PhpMailer, GDImage,hash, json, Core
 Order 
 Download Order in XML, CSV, PDF formate 
 
+Payment Order by Paypal Merchant 
 
 */
 
