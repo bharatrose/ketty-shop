@@ -122,8 +122,10 @@ class SingleSiteProduct {
 		// Get the url to search 
 		$url = $this->searchURL;
 		
+		
 		// Check variable if not false  
 		if($this->GetRemoteContent($url) !== false ) {
+			
 			
 			// Get the content 
 			$result = $this->GetRemoteContent($url);
@@ -244,9 +246,9 @@ class SingleSiteProduct {
 
 $searchString = urlencode('Apple iPhone 8 Plus');
 $siteAttributes = [ 
-				'uae.soqu.com' => [
-					'price' => '//h3[@class="itemPrice"]',
-					'discription' => '//ul[@class="list-blocks"]/li/a/@href',
+				'https://uae.souq.com/ae-en/' => [
+					'price' => '//span[@class="itemPrice"]',
+					'discription' => '//a[@class="itemLink block sPrimaryLink"]/@href',
 					'discription-details' => [
 													'title' => '//div[@class = "small-12 columns product-title"]/h1',
 													'shipping' => '//strong[@class = "green-text"]',
