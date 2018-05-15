@@ -1,0 +1,204 @@
+On the date of may 15 it's gives this result and result will be changed on the basis of time and their website change
+
+Array
+(
+    [uae.souq.com] => Array
+        (
+            [logo] => https://cf1.s3.souqcdn.com/public/style/img/en/souqAmazon-logo-v2.png
+            [image] => uae.souq.com
+            [discription] => uae.souq.com
+            [price] => 
+            [title] => 
+            [shipping] => 
+            [availability] => 
+            [condition] => 
+            [warranty] => 
+            [delivery-period] => 
+            [exchange-period] => 
+            [review] => 
+            [product-discription] => 
+            [payment-method] => ["Master Card", "Visa Card", "COD"]
+            [previous-price] => 
+            [currency] => 
+            [social-share] => 
+            [rating] => 
+            [stock-left] => 
+            [discount] => 
+        )
+
+    [www.jumbo.ae] => Array
+        (
+            [logo] => https://bab-assets3.babapi.ooo/img/lookandfeel/0441617/da39a3ee5e6b4b0d3255b_jumbo.png.999xx.png
+            [image] => https://bab-assets3.babapi.ooo/img/othe/0441617/aa/c7/cygsep.25.1.jpg.54d3b0aac7.999x200x200.jpg
+            [discription] => www.jumbo.ae/covers-screenguard/iphone-8-plus-leather-case-pink-sand/p-0441617-44472827166-cat.html#variant_id=0441617-44472827166
+            [price] => AED93
+            [title] => iPhone 8 Plus Leather Case in Pink Sand
+            [shipping] => Free Delivery
+            [availability] => Available in Stock
+            [condition] => 
+            [warranty] => 
+            [delivery-period] => 
+            [exchange-period] => 5 Days No Fuss Exchange
+            [review] => 
+            [product-discription] => 
+            [payment-method] => ["Master Card", "Visa Card", "Paypal", "Payfort"]
+            [previous-price] => 
+            [currency] => AED
+            [social-share] => 
+            [rating] => 
+            [stock-left] => 
+            [discount] => 
+            [click-and-collect] => Click - n - Collect Find Nearest Stores
+        )
+
+    [uae.microless.com] => Array
+        (
+            [logo] => uae.microless.combackground-image: url('https://uae.microless.com/cdn/microless-logo.svg')
+            [image] => https://uae.microless.com/cdn/products/a77ec0698cf6930d2164b4eb8763514a-sm.jpg
+            [discription] => http://uae.microless.com/product/apple-iphone-8-plus-256gb-unlocked-gold-mq8j2ll-a/
+            [price] => 
+            [title] => Apple - iPhone 8 Plus 256GB Unlocked -Gold | MQ8J2LL/A
+            [shipping] => Free
+            [availability] => In Stock
+            [condition] => New
+            [warranty] => 1 Year
+            [delivery-period] => 
+            [exchange-period] => 
+            [review] => 
+            [product-discription] => 
+            [payment-method] => ["Master Card", "Visa Card", "COD", "Abitcoin", "Bank Transfer", "Installment Payment"]
+            [previous-price] => 
+            [currency] => AED
+            [social-share] => 
+            [rating] => 
+            [stock-left] => 
+            [discount] => 
+            [click-and-collect] => 
+        )
+
+    [www.carrefouruae.com] => Array
+        (
+            [logo] => www.carrefouruae.com
+            [image] => www.carrefouruae.com
+            [discription] => www.carrefouruae.com
+            [price] => 
+            [title] => 
+            [shipping] => 
+            [availability] => 
+            [condition] => 
+            [warranty] => 
+            [delivery-period] => 
+            [exchange-period] => 
+            [review] => 
+            [product-discription] => 
+            [payment-method] => ["Master Card", "Visa Card", "COD"]
+            [previous-price] => 
+            [currency] => 
+            [social-share] => 
+            [rating] => 
+            [stock-left] => 
+            [discount] => 
+            [click-and-collect] => 
+        )
+
+    [www.trobone.com] => Array
+        (
+            [logo] => https://trobone.com/skin/frontend/trobonelat/default/images/logo.png
+            [image] => https://trobone.com/media/catalog/product/cache/1/small_image/150x150/9df78eab33525d08d6e5fb8d27136e95/a/p/apple_iphone_8_silver_1_4.jpg
+            [discription] => https://trobone.com/apple-iphone-8-256gb-4g-lte-tra-grey-20589.html?SID=bbed1f03ead7fbd1f0811554b60bd462
+            [price] => AED 3,174.94
+            [title] => Apple iPhone 8 Plus 64GB, 4G LTE,TRA, Silver
+            [shipping] => 
+            [availability] => 
+            [condition] => 100% Genuine ProductWe do not sell anything which is counterfeited or tampered with in manner, so you can be at ease that purchased product is 100% genuine.
+            [warranty] => Warranty This product come with 1 Year warranty
+            [delivery-period] => We provide transparent return and exchange policy. For more Info
+            [exchange-period] => Return Policy We provide transparent return and exchange policy. For more Info
+            [review] => 
+            [product-discription] => Brand/Model I Phone 8 Plus Launch 2017, September Sim&Network Single Nano-SIM,4G Dimensions 158.4 x 78.1 x 7.5 mm (6.24 x 3.07 x 0.30 in) Weight 202 g (7.13 oz) Display LED-backlit IPS LCD, capacitive touchscreen, 16M colors 5.5 inches, 83.4 cm2 (~67.4% screen-to-body ratio) Os iOS 11, upgradable to iOS 11.0.2 Processor Hexa-core (2x Monsoon + 4x Mistral) Apple A11 Bionic Ram/Storage 3GB Ram/64GB Storage Camera 12Mp Rear / 7MP Front Connectivity WLAN ,Bluetooth ,GPS ,NFC ,USB 2.0 Battery Non-removable Li-Ion 2691 mAh battery (10.28 Wh) Color Silver Features Fingerprint (front-mounted), accelerometer, gyro, proximity, compass, barometer -wireless charging -- IP67 certified - dust and water resistant - Water resistant up to 1 meter and 30 minutes Warranty 1 Year Manufacturer Warranty
+            [payment-method] => ["Master Card", "Visa Card", "COD", "Western Union"]
+            [previous-price] => AED 3,370.50
+            [currency] => 
+            [social-share] => 
+            [rating] => 
+            [stock-left] => 
+            [discount] => 
+            [click-and-collect] => 
+        )
+
+    [www.buyondubai.com] => Array
+        (
+            [logo] => www.buyondubai.com{{imageUrl}}images/logo_aligned.png
+            [image] => www.buyondubai.com
+            [discription] => www.buyondubai.com
+            [price] => 
+            [title] => 
+            [shipping] => Free Shipping in UAE *
+            [availability] => 
+            [condition] => 100 Geniunine Products
+            [warranty] => 
+            [delivery-period] => Super Quick Delivery
+            [exchange-period] => Easy Return Policy
+            [review] => 
+            [product-discription] => 
+            [payment-method] => ["Master Card", "Visa Card", "COD", "Western Union", "Bank Transfer"]
+            [previous-price] => 
+            [currency] => 
+            [social-share] => 
+            [rating] => 
+            [stock-left] => 
+            [discount] => 
+            [click-and-collect] => 
+        )
+
+    [www.virginmegastore.ae] => Array
+        (
+            [logo] => www.virginmegastore.ae
+            [image] => www.virginmegastore.ae
+            [discription] => www.virginmegastore.ae
+            [price] => 
+            [title] => 
+            [shipping] => 
+            [availability] => Check availability in stores
+            [condition] => 
+            [warranty] => 
+            [delivery-period] => 
+            [exchange-period] => 
+            [review] => 
+            [product-discription] => 
+            [payment-method] => ["Master Card", "Visa Card", "Mestro","Cirrus","American Express","COD"]
+            [previous-price] => 
+            [currency] => 
+            [social-share] => 
+            [rating] => 
+            [stock-left] => 
+            [discount] => 
+            [click-and-collect] => Collect in store within 2 hours
+        )
+
+    [www.erosdigitalhome.ae] => Array
+        (
+            [logo] => www.erosdigitalhome.ae
+            [image] => www.erosdigitalhome.ae
+            [discription] => www.erosdigitalhome.ae
+            [price] => 
+            [title] => 
+            [shipping] => 
+            [availability] => 
+            [condition] => 
+            [warranty] => 
+            [delivery-period] => 
+            [exchange-period] => 
+            [review] => 
+            [product-discription] => 
+            [payment-method] => ["Master Card", "Visa Card","Bank Transfer"]
+            [previous-price] => 
+            [currency] => 
+            [social-share] => 
+            [rating] => 
+            [stock-left] => 
+            [discount] => 
+            [click-and-collect] => 
+        )
+
+)
