@@ -1,0 +1,638 @@
+Array
+(
+    [https://uae.souq.com/ae-en/] => Array
+        (
+            [0] => Array
+                (
+                    [price] => 3,739.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-with-facetime-256gb-4g-lte-silver-24051442/i/
+                    [title] => Apple iPhone 8 Plus with FaceTime - 256GB, 4G LTE, Silver
+                    [shipping] => FREE Shipping
+                    [availability] => Only 5 left in stock!
+                    [condition] => New
+                    [warranty] => 1 Year Souq Warranty
+                    [delivery-period] => Delivered by Thursday, May 17
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 23 reviews
+                    [product-discription] => Apple iPhone 8 Plus has a Touch ID fingerprint sensor. This Apple smartphone has a 5.5inch retina display.Be it performance, camera, display, or advanced features, the Apple iPhone 8 excels on all fronts. It is driven by a class-leading A11 Bionic CPU that has the power to run
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:90%
+                    [stock-left] => Only 5 left in stock!
+                    [discount] => 
+                )
+
+            [1] => Array
+                (
+                    [price] => 3,189.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-with-facetime-64gb-4g-lte-space-grey-24051424/i/
+                    [title] => Apple iPhone 8 Plus with FaceTime - 64GB, 4G LTE, Space Grey
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => 
+                    [delivery-period] => Delivered by Thursday, May 17
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 88 reviews
+                    [product-discription] => Apple iPhone 8 Plus is equipped with stereo speakers that deliver a powerful sound. The Touch ID fingerprint sensor allows you for unlocking of this Apple mobile.Do what you love to do with the Apple iPhone 8 Plus. It is fueled by an A11 Bionic CPU that has the power and efficiency to run
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:90%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [2] => Array
+                (
+                    [price] => 3,218.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-without-facetime-64gb-4g-lte-space-grey-24051439/i/
+                    [title] => Apple iPhone 8 Plus without FaceTime - 64GB, 4G LTE, Space Grey
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => 1 year brand warranty
+                    [delivery-period] => Delivered by Thursday, May 17
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 209 reviews
+                    [product-discription] => Apple iPhone 8 Plus is a combination of stunning looks and cutting edge technologies. Buy this iPhone 8 Plus at souq.com.The Apple iPhone 8 delivers the best user experience with its leading-edge hardware technologies and innovative software updates. Want to shoot for your blog? Worry no
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:94%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [3] => Array
+                (
+                    [price] => 3,849.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-without-facetime-256gb-4g-lte-silver-24051425/i/
+                    [title] => Apple iPhone 8 Plus without FaceTime - 256GB, 4G LTE, Silver
+                    [shipping] => FREE Shipping
+                    [availability] => Only 1 left in stock!
+                    [condition] => New
+                    [warranty] => Brand New sealed with one year apple warranty
+                    [delivery-period] => Delivered by Thursday, May 17
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 15 reviews
+                    [product-discription] => Apple iPhone 8 Plus is equipped with redesigned stereo speakers that deliver a powerful sound. This 256GB iPhone 8 Plus has durable glass design.The Apple iPhone 8 Plus is the epitome of perfection. It has everything that you need to keep yourself ahead of the rest. With its A11 Bionic
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:88%
+                    [stock-left] => Only 1 left in stock!
+                    [discount] => 
+                )
+
+            [4] => Array
+                (
+                    [price] => 3,898.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-with-facetime-256gb-4g-lte-gold-24051427/i/
+                    [title] => Apple iPhone 8 Plus with FaceTime - 256GB, 4G LTE, Gold
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => 1 Year Souq Warranty
+                    [delivery-period] => Delivered by Thursday, May 17
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 28 reviews
+                    [product-discription] => Apple iPhone 8 Plus has a Touch ID fingerprint sensor. This 256GB iPhone 8 Plus features redesigned stereo speakers.Smarter, and more powerful, the Apple iPhone 8 Plus is designed to make your digital life simpler and better than ever before. It has an all-glass body that is reinforced
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:92%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [5] => Array
+                (
+                    [price] => 3,899.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-with-facetime-256gb-4g-lte-red-33235192/i/
+                    [title] => Apple iPhone 8 Plus with FaceTime - 256GB, 4G LTE, Red
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => 1 year souq warranty
+                    [delivery-period] => Delivered by Thursday, May 17
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 2 reviews
+                    [product-discription] => Apple iPhone 8 Plus has a Touch ID fingerprint sensor. This 256GB iPhone 8 Plus features redesigned stereo speakers.Smarter, and more powerful, the Apple iPhone 8 Plus is designed to make your digital life simpler and better than ever before. It has an all-glass body that is reinforced
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:84%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [6] => Array
+                (
+                    [price] => 3,999.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-without-facetime-256gb-4g-lte-gold-24051440/i/
+                    [title] => Apple iPhone 8 Plus without FaceTime - 256GB, 4G LTE, Gold
+                    [shipping] => FREE Shipping
+                    [availability] => Only 3 left in stock!
+                    [condition] => New
+                    [warranty] => Brand New sealed with one year apple warranty
+                    [delivery-period] => Delivered within Saturday, May 19 - Sunday, May 20 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 13 reviews
+                    [product-discription] => Apple iPhone 8 Plus features a 5.5inch Retina HD screen. This 256GB iPhone 8 Plus has a 4G LTE network support.Be it performance, design, or camera, the Apple iPhone 8 Plus stands out from the rest in every front. It has an all-glass construction that is reinforced with an aerospace‑grade
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:86%
+                    [stock-left] => Only 3 left in stock!
+                    [discount] => 
+                )
+
+            [7] => Array
+                (
+                    [price] => 3,599.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-without-facetime-64gb-4g-lte-gold-+-smart-wipod-true-wireless-earbuds-black-24072490/i/
+                    [title] => Apple iPhone 8 Plus without FaceTime - 64GB, 4G LTE, Gold + Smart WiPod True Wireless EarBuds, Black
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => Apple warranty is one year from the date of receipt
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => iPhone 8 introduces an all‑new glass design. The world's most popular camera, now even better. The smartest, most powerful chip ever in a smartphone. Wireless charging that’s truly effortless. And augmented
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:100%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [8] => Array
+                (
+                    [price] => 4,290.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-without-facetime-256gb-4g-lte-gold-+-smart-wipod-true-wireless-earbuds-black-24072483/i/
+                    [title] => Apple iPhone 8 Plus without FaceTime - 256GB, 4G LTE, Gold + Smart WiPod True Wireless EarBuds, Black
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => 1Year Brand Warranty Original 100%
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => iPhone 8 introduces an all‑new glass design. The world's most popular camera, now even better. The smartest, most powerful chip ever in a smartphone. Wireless charging that’s truly effortless. And augmented
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:60%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [9] => Array
+                (
+                    [price] => 4,948.90 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-without-facetime-256gb-4g-lte-space-grey-+-applecare+-for-iphone-24078703/i/
+                    [title] => Apple iPhone 8 Plus without FaceTime - 256GB, 4G LTE, Space Grey + AppleCare+ for iPhone
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => One year Warranty 
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => iPhone 8 introduces an all‑new glass design. The world's most popular camera, now even better. The smartest, most powerful chip ever in a smartphone. Wireless charging that’s truly effortless. And augmented
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:0%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [10] => Array
+                (
+                    [price] => 4,290.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-without-facetime-256gb-4g-lte-silver-+-smart-wipod-true-wireless-earbuds-black-24072485/i/
+                    [title] => Apple iPhone 8 Plus without FaceTime - 256GB, 4G LTE, Silver + Smart WiPod True Wireless EarBuds, Black
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => 1Year Brand Warranty Original 100%
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => iPhone 8 introduces an all‑new glass design. The world's most popular camera, now even better. The smartest, most powerful chip ever in a smartphone. Wireless charging that’s truly effortless. And augmented
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:0%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [11] => Array
+                (
+                    [price] => 4,850.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-with-facetime-256gb-4g-lte-space-grey-with-a-gift-apple-wireless-airpods-white-mmef2-24458294/i/
+                    [title] => Apple iPhone 8 Plus with FaceTime - 256GB, 4G LTE, Space Grey with a Gift Apple Wireless AirPods, White - MMEF2
+                    [shipping] => FREE Shipping
+                    [availability] => Only 2 left in stock!
+                    [condition] => New
+                    [warranty] => Official Brand Warrant
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => Features and Specifications:
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:20%
+                    [stock-left] => Only 2 left in stock!
+                    [discount] => 
+                )
+
+            [12] => Array
+                (
+                    [price] => 4,948.90 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-without-facetime-256gb-4g-lte-gold-+-applecare+-for-iphone-24078700/i/
+                    [title] => Apple iPhone 8 Plus without FaceTime - 256GB, 4G LTE, Gold + AppleCare+ for iPhone
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => One year Warranty 
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => iPhone 8 introduces an all‑new glass design. The world's most popular camera, now even better. The smartest, most powerful chip ever in a smartphone. Wireless charging that’s truly effortless. And augmented
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:0%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [13] => Array
+                (
+                    [price] => 4,999.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-without-facetime-256gb-4g-lte-space-grey-with-a-gift-apple-wireless-airpods-white-mmef2-24458288/i/
+                    [title] => Apple iPhone 8 Plus without FaceTime - 256GB, 4G LTE, Space Grey with a Gift Apple Wireless AirPods, White - MMEF2
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => orgnail for apple
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => Features and Specifications:
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:0%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [14] => Array
+                (
+                    [price] => 3,899.06 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-with-facetime-64gb-4g-lte-gold-32163996/i/
+                    [title] => Apple iPhone 8 Plus with FaceTime - 64GB, 4G LTE, Gold
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => orgnail apple
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => Apple iPhone 8 Plus features a 7MP front camera. This 64GB iPhone 8 Intelligent features and powerful performance come together in the Apple iPhone 8 Plus. It is driven by a class-leading A11 Bionic CPU that can harness all its six cores simultaneously when you need a turbo boost for high-end games
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:100%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [15] => Array
+                (
+                    [price] => 4,850.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-with-facetime-256gb-4g-lte-silver-with-a-gift-apple-wireless-airpods-white-mmef2-24458287/i/
+                    [title] => Apple iPhone 8 Plus with FaceTime - 256GB, 4G LTE, Silver with a Gift Apple Wireless AirPods, White - MMEF2
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => Official Brand Warrant
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => Features and Specifications:
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:0%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [16] => Array
+                (
+                    [price] => 3,699.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-without-facetime-64gb-4g-lte-silver-+-smart-wipod-true-wireless-earbuds-black-24072488/i/
+                    [title] => Apple iPhone 8 Plus without FaceTime - 64GB, 4G LTE, Silver + Smart WiPod True Wireless EarBuds, Black
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => Apple warranty is one year from the date of receipt
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => iPhone 8 introduces an all‑new glass design. The world's most popular camera, now even better. The smartest, most powerful chip ever in a smartphone. Wireless charging that’s truly effortless. And augmented
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:60%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [17] => Array
+                (
+                    [price] => 4,398.90 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-without-facetime-64gb-4g-lte-silver-with-a-gift-apple-wireless-airpods-white-mmef2-24458283/i/
+                    [title] => Apple iPhone 8 Plus without FaceTime - 64GB, 4G LTE, Silver with a Gift Apple Wireless AirPods, White - MMEF2
+                    [shipping] => FREE Shipping
+                    [availability] => Only 1 left in stock!
+                    [condition] => New
+                    [warranty] => Official Brand Warrant
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => Features and Specifications:
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:0%
+                    [stock-left] => Only 1 left in stock!
+                    [discount] => 
+                )
+
+            [18] => Array
+                (
+                    [price] => 3,958.90 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-without-facetime-64gb-4g-lte-silver-+-applecare+-for-iphone-24078704/i/
+                    [title] => Apple iPhone 8 Plus without FaceTime - 64GB, 4G LTE, Silver + AppleCare+ for iPhone
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => 1Year Brand Warranty Original 100%
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => iPhone 8 introduces an all‑new glass design. The world's most popular camera, now even better. The smartest, most powerful chip ever in a smartphone. Wireless charging that’s truly effortless. And augmented
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:0%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [19] => Array
+                (
+                    [price] => 4,948.90 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-without-facetime-256gb-4g-lte-silver-+-applecare+-for-iphone-24078702/i/
+                    [title] => Apple iPhone 8 Plus without FaceTime - 256GB, 4G LTE, Silver + AppleCare+ for iPhone
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => One year Warranty 
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => iPhone 8 introduces an all‑new glass design. The world's most popular camera, now even better. The smartest, most powerful chip ever in a smartphone. Wireless charging that’s truly effortless. And augmented
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:0%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [20] => Array
+                (
+                    [price] => 4,999.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-without-facetime-256gb-4g-lte-gold-with-a-gift-apple-wireless-airpods-white-mmef2-24458299/i/
+                    [title] => Apple iPhone 8 Plus without FaceTime - 256GB, 4G LTE, Gold with a Gift Apple Wireless AirPods, White - MMEF2
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => 
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => Features and Specifications:
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:0%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [21] => Array
+                (
+                    [price] => 3,999.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-with-facetime-64gb-4g-lte-space-grey-with-a-gift-apple-wireless-airpods-white-mmef2-24458295/i/
+                    [title] => Apple iPhone 8 Plus with FaceTime - 64GB, 4G LTE, Space Grey with a Gift Apple Wireless AirPods, White - MMEF2
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => 
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => Features and Specifications:
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:0%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [22] => Array
+                (
+                    [price] => 5,278.90 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-without-facetime-256gb-4g-lte-silver-with-a-gift-apple-wireless-airpods-white-mmef2-24458296/i/
+                    [title] => Apple iPhone 8 Plus without FaceTime - 256GB, 4G LTE, Silver with a Gift Apple Wireless AirPods, White - MMEF2
+                    [shipping] => FREE Shipping
+                    [availability] => Only 2 left in stock!
+                    [condition] => New
+                    [warranty] => Official Brand Warrant
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => Features and Specifications:
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:0%
+                    [stock-left] => Only 2 left in stock!
+                    [discount] => 
+                )
+
+            [23] => Array
+                (
+                    [price] => 4,398.90 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-without-facetime-64gb-4g-lte-gold-with-a-gift-apple-wireless-airpods-white-mmef2-24458281/i/
+                    [title] => Apple iPhone 8 Plus without FaceTime - 64GB, 4G LTE, Gold with a Gift Apple Wireless AirPods, White - MMEF2
+                    [shipping] => FREE Shipping
+                    [availability] => Only 2 left in stock!
+                    [condition] => New
+                    [warranty] => Official Brand Warrant
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => Features and Specifications:
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:0%
+                    [stock-left] => Only 2 left in stock!
+                    [discount] => 
+                )
+
+            [24] => Array
+                (
+                    [price] => 4,178.90 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-without-facetime-64gb-4g-lte-gold-+-applecare+-for-iphone-24078706/i/
+                    [title] => Apple iPhone 8 Plus without FaceTime - 64GB, 4G LTE, Gold + AppleCare+ for iPhone
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => 1Year Brand Warranty Original 100%
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => iPhone 8 introduces an all‑new glass design. The world's most popular camera, now even better. The smartest, most powerful chip ever in a smartphone. Wireless charging that’s truly effortless. And augmented
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:0%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [25] => Array
+                (
+                    [price] => 4,699.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-with-facetime-64gb-4g-lte-gold-with-a-gift-apple-wireless-airpods-white-mmef2-24458305/i/
+                    [title] => Apple iPhone 8 Plus with FaceTime - 64GB, 4G LTE, Gold with a Gift Apple Wireless AirPods, White - MMEF2
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => 
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => Features and Specifications:
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:0%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [26] => Array
+                (
+                    [price] => 4,068.90 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-without-facetime-64gb-4g-lte-space-grey-+-applecare+-for-iphone-24078707/i/
+                    [title] => Apple iPhone 8 Plus without FaceTime - 64GB, 4G LTE, Space Grey + AppleCare+ for iPhone
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => 1Year Brand Warranty Original 100%
+                    [delivery-period] => Delivered within Saturday, May 19 - Monday, May 21 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => iPhone 8 introduces an all‑new glass design. The world's most popular camera, now even better. The smartest, most powerful chip ever in a smartphone. Wireless charging that’s truly effortless. And augmented
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:0%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+            [27] => Array
+                (
+                    [price] => 59.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-bluetooth-wireless-headset-mono-wireless-hands-free-single-earbud-earphone-with-mic-for-music-and-calls-for-smartphones-tablet-laptop-promate-aural-white-24456524/i/
+                    [title] => Apple iPhone 8 Plus Bluetooth Wireless Headset, Mono Wireless Hands-Free Single Earbud Earphone with Mic for Music and Calls for Smartphones, Tablet, Laptop, Promate Aural White
+                    [shipping] => FREE Shipping
+                    [availability] => Only 1 left in stock!
+                    [condition] => New
+                    [warranty] => 
+                    [delivery-period] => Delivered within Saturday, May 19 - Sunday, May 20 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 1 review
+                    [product-discription] => WIRELESS CONNECTIVITY COUPLED WITH PRISTINE MUSIC AND CALL QUALITY WITH AURAL, A WIRELESS MULTIPOINT PAIRING HEADSET. MAKE AND ANSWER CALLS OR LISTEN TO MUSIC ON-THE-GO WITH AURAL. IT SUPPORTS MULTIPOINT PAIRING I.E. YOU CAN CONNECT TWO DEVICES SIMULTANEOUSLY. HANDSFREE FREEDOM WITH
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:100%
+                    [stock-left] => Only 1 left in stock!
+                    [discount] => 
+                )
+
+            [28] => Array
+                (
+                    [price] => 99.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-sports-wireless-bluetooth-stereo-earbuds-headset-in-ear-4th-generation-for-iphone-ipad-smartphone-tablet-laptop-promate-lite-2-blue-25432628/i/
+                    [title] => Apple iPhone 8 Plus Sports Wireless Bluetooth Stereo Earbuds Headset In-Ear 4th Generation for iPhone, iPad, Smartphone, Tablet, Laptop, Promate Lite-2 Blue
+                    [shipping] => FREE Shipping
+                    [availability] => Only 4 left in stock!
+                    [condition] => New
+                    [warranty] => Promate is the World’s No.1 Brand in Digital Gadgets, Mobile Accessories, and IT Products with more than 500 Innovation Awards.
+بروميت هي أفضل علامة تجارية في مجال ملحقات الأجهزة الذكية والمحمولة. حازت على أكثر من 500 جائزة عالمية في الابتكار التقني.
+                    [delivery-period] => Delivered within Saturday, May 19 - Sunday, May 20 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => Take your music listening experience to the next level with this amazing sporty wireless gear buds Lite-2. Designed for an active lifestyle, Lite-2 is your perfect companion for workouts & daily commutes. Compatible with all Bluetooth enabled devices, Lite-2 enables music & call streaming. Lite-2
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:54%
+                    [stock-left] => Only 4 left in stock!
+                    [discount] => 
+                )
+
+            [29] => Array
+                (
+                    [price] => 79.00 AED 
+                    [discription] => https://uae.souq.com/ae-en/apple-iphone-8-plus-kids-headset-high-quality-volume-limited-wired-headphones-with-child-safe-foam-headphones-for-home-travel-smartphones-pc-music-gaming-promate-flexure-pink-24456456/i/
+                    [title] => Apple iPhone 8 Plus Kids Headset, High Quality Volume Limited Wired Headphones with Child Safe Foam Headphones for Home, Travel, Smartphones PC Music Gaming, Promate Flexure Pink
+                    [shipping] => FREE Shipping
+                    [availability] => 
+                    [condition] => New
+                    [warranty] => 
+                    [delivery-period] => Delivered within Saturday, May 19 - Sunday, May 20 to Abu Dhabi
+                    [exchange-period] => 
+                    [payment-method] => ["Master Card", "Visa Card", "COD"]
+                    [review] => 
+                    [product-discription] => THESE WIRED FOAM HEADPHONES FOR CHILDREN IS THE SAFEST AND COMFORTABLE PAIR OF HEADSET FOR YOUR CHILD. MADE FROM EVA FOAM THE HEADBAND IS NON-TOXIC AND BPA-FREE. THE HEADPHONES ARE EXTREMELY FLEXIBLE AND NEARLY INDESTRUCTIBLE WHILE PROVIDING MAXIMUM COMFORT TO YOUR KID. FLEXURE FEATURES COMFORTABLE
+                    [currency] => AED
+                    [social-share] => 
+                    [rating] => width:100%
+                    [stock-left] => 
+                    [discount] => 
+                )
+
+        )
+
+)
