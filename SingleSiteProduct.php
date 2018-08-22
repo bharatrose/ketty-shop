@@ -130,6 +130,7 @@ class SingleSiteProduct {
 			// Get the content 
 			$result = $this->GetRemoteContent($url);
 			
+			
 			// Get dom object 
 			@$doc = new DOMDocument();
 			
@@ -247,8 +248,8 @@ class SingleSiteProduct {
 $searchString = urlencode('Apple iPhone 8 Plus');
 $siteAttributes = [ 
 				'https://uae.souq.com/ae-en/' => [
-					'price' => '//span[@class="itemPrice"]',
-					'discription' => '//a[@class="itemLink block sPrimaryLink"]/@href',
+					'price' => '//h3[@class="itemPrice"]',
+					'discription' => '//a[@class="img-bucket img-link itemLink sPrimaryLink"]/@href',
 					'discription-details' => [
 													'title' => '//div[@class = "small-12 columns product-title"]/h1',
 													'shipping' => '//strong[@class = "green-text"]',
@@ -278,6 +279,6 @@ $siteUrl = "https://uae.souq.com/ae-en/{{@searchString}}/s/?as=1";
 $obj = new SingleSiteProduct($searchString,$siteUrl, $siteAttributes);
 
 echo "<pre>";
-print_r($obj->GetProduct());
+print_R($obj->GetProduct());
 echo "<pre>";
 ?>
